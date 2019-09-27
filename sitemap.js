@@ -3,8 +3,8 @@
  * ---------------------------------------------------
  * by Taufik Nurrohman
  * URL: http://gplus.to/tovic
- * Modified by Bloggersstand
- * URL: http://bloggersstand.com
+ * Modified by TwistBlogg
+ * URL: https://www.twistblogg.com
  * ---------------------------------------------------
  */
 
@@ -12,13 +12,14 @@
 var toc_config = {
 	url: 'https://www.twistblogg.com',
 	containerId: 'tb-sitemap',
-	showNew: 12,
-	newText: ' <strong style="font-weight:normal;font-style:normal;color:#000;font-size:11px;background:#fff000;padding:1px 6px 3px 6px;line-height:normal;float:right;border-radius:3px;">New!</strong>',
+	showNew: 15,
+	newText: ' <strong style="font-weight:normal;font-style:normal;color:#fff;font-size:11px;background:#5c5a78;padding:1px 6px 3px 6px;line-height:normal;float:right;border-radius:3px;">New!</strong>',
 	sortAlphabetically: {
 		thePanel: true,
 		theList: true
 	},
 	maxResults: 9999,
+	activePanel: 1,
 	slideSpeed: {
 		down: 400,
 		up: 400
